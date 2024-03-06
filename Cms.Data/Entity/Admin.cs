@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace Cms.Data.Entity
 {
@@ -12,12 +13,26 @@ namespace Cms.Data.Entity
   {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    [Required(ErrorMessage = "{0} boş geçilemez")]
+    [ForeignKey("Id")]
     public int Id { get; set; }
+
+
+    [Required(ErrorMessage = "{0} boş geçilemez")]
+    [StringLength(200, ErrorMessage = "{0} alanı en fazla {1} karakter olabilir")]
+    [DisplayName("İsim")]
     public string Name { get; set; }
-    public string Username { get; set; }
+    [Required(ErrorMessage = "{0} boş geçilemez")]
+    [StringLength(200, ErrorMessage = "{0} alanı en fazla {1} karakter olabilir")]
+    [DisplayName("Soyad")]
     public string Surname { get; set; }
+
     public int RoleId { get; set; }
     public string Password { get; set; }
+    [Required(ErrorMessage = "{0} boş geçilemez")]
+    [StringLength(400, ErrorMessage = "{0} alanı en fazla {1} karakter olabilir")]
+    [DisplayName("Değer")]
+    public string Value { get; set; }
 
   }
 }
