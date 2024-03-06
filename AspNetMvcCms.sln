@@ -5,11 +5,11 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cms.Web.Mvc", "AspNetMvcCms\Cms.Web.Mvc.csproj", "{6AC81C22-C04E-4350-8724-0B71E3A3313E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Data", "Cms.Data\Cms.Data.csproj", "{91F484D6-FF8C-406C-AA6D-4A4AB354434F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cms.Data", "Cms.Data\Cms.Data.csproj", "{91F484D6-FF8C-406C-AA6D-4A4AB354434F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Service", "Cms.Service\Cms.Service.csproj", "{E934EE2A-A3A6-4B09-8E1F-97D7F5F314DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cms.Service", "Cms.Service\Cms.Service.csproj", "{E934EE2A-A3A6-4B09-8E1F-97D7F5F314DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.WebAPI", "Cms.WebAPI\Cms.WebAPI.csproj", "{79D8C44B-5594-4295-A95E-633BAA94D620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cms.WebAPI", "Cms.WebAPI\Cms.WebAPI.csproj", "{79D8C44B-5594-4295-A95E-633BAA94D620}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
