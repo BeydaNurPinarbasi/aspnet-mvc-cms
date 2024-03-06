@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  internal class Appointment
-  {
+  public class Appointment : BaseEntity
+  
   {
 		[ForeignKey("DepartmentId")]
     public int DepartmentId { get; set; }
@@ -40,7 +40,7 @@ namespace Cms.Data.Entity
 
     [ForeignKey(nameof(AppointmentManager.AppointmentManagerId))]
     public int AppointmentManagerId { get; set; }
-    public AppointmentManager AppointmentManager { get; set; }
+    public AppointmentManager AppointmentManeger { get; set; }
 
 
 
