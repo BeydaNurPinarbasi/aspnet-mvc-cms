@@ -8,12 +8,19 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  public class BlogImage
+  public class DepartmentBlog 
   {
+    [Required(ErrorMessage = "{0} boş geçilemez")]
+    [ForeignKey("Department")]
+    public int DepartmentId { get; set; }
+
+    public Department Department { get; set; }
+
     [Required(ErrorMessage = "{0} boş geçilemez")]
     [ForeignKey("Blog")]
     public int BlogId { get; set; }
 
-    
+    public Blog Blog { get; set; }
+
   }
 }
