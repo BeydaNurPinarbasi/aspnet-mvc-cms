@@ -4,10 +4,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 
-// builder.Services.AddDbContext<AspNetMvcCms.Context.DataContext>(options =>
-//{
-  //options.UseSqlServer(builder.Configuration.GetConnectionString("DBConStr"));
-//});
+builder.Services.AddDbContext<AspNetMvcCms.Context.DataContext>(options =>
+{
+  options.UseSqlServer(builder.Configuration.GetConnectionString("DBConStr"));
+});
 
 var app = builder.Build();
 

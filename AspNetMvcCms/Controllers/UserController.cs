@@ -2,12 +2,8 @@
 
 namespace Cms.Web.Mvc.Controllers
 {
-  public class PostController : Controller
+  public class UserController : Controller
   {
-    public IActionResult Search(string query, int page)
-    {
-      return View();
-    }
     public IActionResult Index()
     {
       return View();

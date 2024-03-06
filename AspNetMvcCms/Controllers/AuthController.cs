@@ -4,15 +4,7 @@ namespace Cms.Web.Mvc.Controllers
 {
   public class AuthController : Controller
   {
-    public IActionResult Register()
-    {
-      return View();
-    }
-    public IActionResult Login(string redirectUrl)
-    {
-      return View();
-    }
-    public IActionResult ForgotPassword()
+    public IActionResult Index()
     {
       return View();
     }
