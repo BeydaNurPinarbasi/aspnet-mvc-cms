@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  public class Appointment : BaseEntity
+  public class Appointment 
   
   {
 		[ForeignKey("DepartmentId")]

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  internal class BlogComment: BaseEntity
+  internal class BlogComment
   {
     [Required(ErrorMessage = "{0} boş geçilemez")]
     [ForeignKey("Blog")]
