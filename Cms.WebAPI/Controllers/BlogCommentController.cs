@@ -3,7 +3,7 @@
 namespace Cms.WebAPI.Controllers
 {
   [Route("api/[controller]")]
-  [ApiController]
+    [ApiController]
   public class BlogCommentController : Controller
   {
     public IActionResult Index()
