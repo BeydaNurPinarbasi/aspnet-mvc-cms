@@ -20,7 +20,8 @@
 						 aria-haspopup="true" aria-expanded="false">Department <i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown02">
 						<li><a class="dropdown-item" asp-controller="Department" asp-action="index">Departments</a></li>
-						<li><a class="dropdown-item" href="department-single.html">Department Single</a></li>
+						<li><a class="dropdown-item" asp-controller="Department" asp-action="Single">Department Single</a></li>
+						@*<li><a class="dropdown-item" href="department-single.html">Department Single</a></li>*@
 
 						<li class="dropdown dropdown-submenu dropright">
 							<a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
@@ -65,7 +66,8 @@
 						<li><a class="dropdown-item" asp-controller="Blog" asp-action="Details">Blog Single</a></li>
 					</ul>
 				</li>
-				<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+				<li class="nav-item"><a class="nav-link" asp-controller="Post" asp-action="Search">Contact</a></li>
+				@*<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>*@
 			</ul>
 		</div>
 	</div>
