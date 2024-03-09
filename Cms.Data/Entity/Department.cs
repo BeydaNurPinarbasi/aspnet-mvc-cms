@@ -27,10 +27,8 @@ namespace Cms.Data.Entity
     public ICollection<Doctor> Doctors { get; set; }
     public DepartmentDetail DepartmentDetails { get; set; }
 
-    [ForeignKey(nameof(DepartmentDetails.Id))]
+    //[ForeignKey(nameof(DepartmentDetails.Id))]
     public int DepartmentDetailsId { get; set; }
-
     public string? ImagePath { get; set; }
-
   }
 }
