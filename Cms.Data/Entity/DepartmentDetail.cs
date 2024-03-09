@@ -16,7 +16,7 @@ namespace Cms.Data.Entity
     public ICollection<string> DepartmentFeatures { get; set; }
     public Department Department { get; set; }
 
-    [ForeignKey(nameof(Department.Id))]
+    //[ForeignKey(nameof(Department.Id))]
     public int DepartmentId { get; set; }
   }
 }

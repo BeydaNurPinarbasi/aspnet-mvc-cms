@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  public class AppRole :  IAuditEntity
+  public class AppRole
   {
-    public DateTime CreatedAt { get; set; } = DateTime.Now;
-    public DateTime UpdatedAt { get; set; } = DateTime.Now;
-    public DateTime? DeletedAt { get; set; }
+ 
   }
 }

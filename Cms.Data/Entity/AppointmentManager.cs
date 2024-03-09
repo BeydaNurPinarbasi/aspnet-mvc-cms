@@ -12,15 +12,15 @@ namespace Cms.Data.Entity
   {
     public int AppointmentManagerId { get; set; }
 
-    [ForeignKey(nameof(Doctor.Id))]
+    //[ForeignKey(nameof(Doctor.Id))]
     public string DoctorId { get; set; }
     public Doctor Doctor { get; set; }
-    [ForeignKey(nameof(Patient.Id))]
+    //[ForeignKey(nameof(Patient.Id))]
     public string PatientId { get; set; }
     public Patient Patient { get; set; }
     public DateTime StartingTime { get; set; }
     public DateTime EndingTime { get; set; }
-    public AppointmentStatus Status { get; set; }
+    //public AppointmentStatus Status { get; set; }
 
     public ICollection<WorkingHour> WorkingHours { get; set; }
   }

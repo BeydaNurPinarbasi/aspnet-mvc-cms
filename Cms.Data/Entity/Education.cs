@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  internal class Education
+  public class Education
   {
     public string Year { get; set; }
 
@@ -15,7 +15,7 @@ namespace Cms.Data.Entity
 
     public string Explanation { get; set; }
 
-    [ForeignKey(nameof(Doctor.Id))]//calisiyor mu denemek lazim
+    //[ForeignKey(nameof(Doctor.Id))]//calisiyor mu denemek lazim
     public string DoctorId { get; set; }
   }
 }
