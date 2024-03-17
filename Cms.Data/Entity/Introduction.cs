@@ -18,8 +18,6 @@ namespace Cms.Data.Entity
     public string MySkills { get; set; }
     public ICollection<string> ExpertisesArea { get; set; }
     public ICollection<Education> Educations { get; set; }
-
-
     public WorkingHour WorkingHour { get; set; }
     public Education Education { get; set; }
   }
