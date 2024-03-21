@@ -23,7 +23,7 @@ namespace Cms.Data.Entity
 
     public int RoleId { get; set; }
 
-    public string Password { get; set; }
+    public int Password { get; set; }
     [Required(ErrorMessage = "{0} boş geçilemez")]
     [StringLength(400, ErrorMessage = "{0} alanı en fazla {1} karakter olabilir")]
     [DisplayName("Değer")]
