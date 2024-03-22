@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
- public class Contact
+ public class Contact: BaseEntity.BaseEntity
   {
     public string FullName { get; set; }
     public string Email { get; set; }

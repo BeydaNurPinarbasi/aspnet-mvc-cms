@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  public class DepartmentBlog 
+  public class DepartmentBlog : BaseEntity.BaseEntity
   {
     [Required(ErrorMessage = "{0} boş geçilemez")]
     [ForeignKey("Department")]

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  public class Introduction
+  public class Introduction: BaseEntity.BaseEntity
   {
     public int Id { get; set; }
 

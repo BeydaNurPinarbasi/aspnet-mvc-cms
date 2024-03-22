@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  public class AppRole
+  public class AppRole: BaseEntity.BaseEntity
   {
  
   }

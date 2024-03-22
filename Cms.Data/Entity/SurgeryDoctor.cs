@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cms.Data.Entity
+namespace Cms.Data.Entity 
+
 {
-  public class SurgeryDoctor : BaseEntity
+  public class SurgeryDoctor : BaseEntity.BaseEntity
   {
     public string DoctorId { get; set; }
     public Doctor Doctor { get; set; }

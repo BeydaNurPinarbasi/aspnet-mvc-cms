@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  public class DepartmentDetail
+  public class DepartmentDetail: BaseEntity.BaseEntity
   {
     public int Id { get; set; }
     public string Title { get; set; }
     public string DescriptionShort { get; set; }
-    public string DescriptionLong { get; set; }
+    public string ?DescriptionLong { get; set; }
     public ICollection<string> DepartmentFeatures { get; set; }
     public Department Department { get; set; }
 
