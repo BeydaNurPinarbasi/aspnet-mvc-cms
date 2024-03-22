@@ -8,5 +8,9 @@ namespace Cms.Web.Mvc.Controllers
 		{
 			return View();
 		}
-	}
+    public IActionResult DoctorSingle(int id)
+    {
+      return View();
+    }
+  }
 }
