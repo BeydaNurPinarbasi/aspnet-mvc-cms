@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Cms.Data.Entity
 {
-  public class BlogComment
+  public class BlogComment: BaseEntity.BaseEntity
   {
     [Required(ErrorMessage = "{0} boş geçilemez")]
     [ForeignKey("Blog")]

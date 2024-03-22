@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  public class Education
+  public class Education: BaseEntity.BaseEntity
   {
     public string Year { get; set; }
 

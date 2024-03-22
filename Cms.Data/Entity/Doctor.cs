@@ -1,6 +1,6 @@
 ﻿namespace Cms.Data.Entity
 {
-  public class Doctor 
+  public class Doctor : BaseEntity.BaseEntity
   {
     public string Speacialty { get; set; }
 

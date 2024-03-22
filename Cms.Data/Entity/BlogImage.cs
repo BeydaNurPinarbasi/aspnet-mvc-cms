@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  public class BlogImage
+  public class BlogImage: BaseEntity.BaseEntity
   {
     [Required(ErrorMessage = "{0} boş geçilemez")]
     [ForeignKey("Blog")]

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  public class Department 
+  public class Department : BaseEntity.BaseEntity
   {
     [DisplayName("İsim")]
     [Required(ErrorMessage = "{0} boş geçilemez")]

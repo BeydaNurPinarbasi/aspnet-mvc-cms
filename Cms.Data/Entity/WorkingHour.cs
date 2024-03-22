@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  public class WorkingHour
+  public class WorkingHour: BaseEntity.BaseEntity
   {
     [Key]
     public int WorkingHourId { get; set; }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  public class AppointmentManager
+  public class AppointmentManager: BaseEntity.BaseEntity
   {
     public int AppointmentManagerId { get; set; }
 

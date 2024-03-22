@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Cms.Data.Entity
 {
-  public class Patient
+  public class Patient: BaseEntity.BaseEntity
   {
 
     public string Diagnosis { get; set; }

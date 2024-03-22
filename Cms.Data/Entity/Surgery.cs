@@ -1,6 +1,6 @@
 ﻿namespace Cms.Data.Entity
 {
-  public class Surgery 
+  public class Surgery : BaseEntity.BaseEntity
   {
     //[ForeignKey(nameof(Patient.Id))]
     public string PatientId { get; set; }

@@ -8,5 +8,9 @@ namespace Cms.Web.Mvc.Controllers
 		{
 			return View();
 		}
-	}
+    public IActionResult Index2(int id, int page)
+    {
+      return View();
+    }
+  }
 }
